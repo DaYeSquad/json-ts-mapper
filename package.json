@@ -1,0 +1,33 @@
+{
+  "name": "json-ts-mapper",
+  "version": "1.0.0",
+  "description": "Mapping server returned JSON to TypeScript class",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "rm -rf ./lib; tsc; ./node_modules/.bin/mocha lib/test/test.js; rm -rf ./lib;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaYeSquad/json-ts-mapper.git"
+  },
+  "publishConfig": {
+    "registry": "http://npmjs.com"
+  },
+  "keywords": [
+    "json-mapper",
+    "typescript-json",
+    "json-adapter",
+    "json-transformer",
+    "api-mapper",
+    "api-adapter"
+  ],
+  "author": "Frank Lin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
