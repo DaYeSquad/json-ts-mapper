@@ -6,7 +6,7 @@ The idea is inspired by [json-typescript-mapper](https://github.com/jf3096/json-
 
 # INSTALL
 
-`npm install json-ts-mapper --save`
+`npm install json-ts-mapper --registry=http://npmjs.gagogroup.cn --save`
 
 
 # EXAMPLE
