@@ -1,9 +1,12 @@
 {
   "name": "json-ts-mapper",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Mapping server returned JSON to TypeScript class",
   "main": "lib/index.js",
+  "types": "./lib/definition/index.d.ts",
   "scripts": {
+    "prepare": "rm -rf ./lib; tsc; rm -rf ./lib/test; rm -rf ./lib/definition/test;",
+    "postpublish": "rm -rf ./lib;",
     "test": "rm -rf ./lib; tsc; ./node_modules/.bin/mocha lib/test/test.js; rm -rf ./lib;"
   },
   "repository": {
